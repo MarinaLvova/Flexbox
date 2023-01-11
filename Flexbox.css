@@ -1,0 +1,53 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.header{
+    display: flex;
+    height: 65px;
+    background-color: blueviolet;
+    align-items: center;
+}
+
+.left-section{
+    width: 200px;
+}
+
+.middle-section{
+ flex: 1;
+ margin-left: 50px;
+ margin-right: 50px;
+}
+
+.right-section{
+    width: 200px;
+}
+
+.home{
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+.search{
+    padding-left: 15px;
+    height: 37px;
+    border: none;
+    border-radius: 20px;
+    color: gray;
+    width: 90%;
+
+}
+
+.download{
+    color: white;
+    background-color: blueviolet;
+    border-color: white;
+    border-style: solid;
+    height: 37px;
+    float: right;
+    margin-right: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
